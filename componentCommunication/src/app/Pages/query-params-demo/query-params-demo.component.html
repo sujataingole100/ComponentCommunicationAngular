@@ -1,0 +1,6 @@
+<p>query-params-demo works!</p>
+
+<button class="btn btn-sucess" type="button" (click)="setQueryParam()">QueryParam</button>
+
+<a [routerLink]="['/project']" [queryParams]="{ category: 'electronics' }">Electronics</a>
+<a [routerLink]="['/project']" [queryParams]="{ sort: 'price' }">Sort by Price</a>

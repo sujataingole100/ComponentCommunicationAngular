@@ -1,0 +1,32 @@
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Styling for the navigation bar container */
+.navbar {
+  display: none;
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  /* Adjust the top position as needed */
+  left: 0;
+  z-index: 1;
+}
+
+/* Style for individual navigation links */
+.navbar a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Show the navbar when hovering over the icon */
+.icon:hover+.navbar {
+  display: block;
+}
